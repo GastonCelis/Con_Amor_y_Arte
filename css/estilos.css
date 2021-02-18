@@ -1,0 +1,286 @@
+.fondo {
+  background-image: url(../../multimedia/imagenes/comboflorescelestes.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 90px; }
+
+.fondo1 {
+  background-image: url(../multimedia/imagenes/segundofondo.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fondoprincipal {
+  background-color: #00A1A6; }
+
+.fondofooter {
+  background-image: linear-gradient(to top, #00a1a6, #67b6cc, #a8cbe4, #dbe3f3, #ffffff);
+  background-size: cover; }
+
+.fondomate {
+  background-image: url(../multimedia/imagenes/fondomateamarillo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 360px; }
+
+.letranegra {
+  color: black !important; }
+
+.txtprin {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  animation: backInUp;
+  animation-duration: 0.6s; }
+
+.img1 {
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px black;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin-top: 5rem;
+  background: rgba(0, 0, 0, 0.5); }
+
+.cenbox {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 80px; }
+
+.icn-sep {
+  margin: 10px; }
+
+.txt-img {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  top: 80px;
+  background-color: rgba(0, 161, 166, 0.7); }
+
+.img-tien {
+  animation: rubberBand;
+  animation-duration: 1.5s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all 1.2s; }
+  .img-tien::before, .img-tien::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 1.2s; }
+  .img-tien::before {
+    bottom: 0px;
+    height: 5px;
+    width: 0px;
+    box-shadow: 0px -295px white;
+    z-index: 1; }
+  .img-tien::after {
+    margin-top: 65px;
+    left: 15px;
+    top: 15px;
+    height: 0px;
+    width: 5px;
+    box-shadow: 295px 0px white; }
+  .img-tien:hover {
+    transform: scale(1.1); }
+    .img-tien:hover::before {
+      width: 300px; }
+    .img-tien:hover::after {
+      height: 300px; }
+
+.tit-mate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1.2em; }
+
+.margder-1 {
+  margin-right: 1em; }
+
+.margder-2 {
+  margin-right: 2em; }
+
+.margder-3 {
+  margin-right: 3em; }
+
+.margder-4 {
+  margin-right: 4em; }
+
+.margder-5 {
+  margin-right: 5em; }
+
+.margder-6 {
+  margin-right: 6em; }
+
+.margder-7 {
+  margin-right: 7em; }
+
+.margder-8 {
+  margin-right: 8em; }
+
+.margder-9 {
+  margin-right: 9em; }
+
+.margder-10 {
+  margin-right: 10em; }
+
+.margder-11 {
+  margin-right: 11em; }
+
+.margder-12 {
+  margin-right: 12em; }
+
+.margder-13 {
+  margin-right: 13em; }
+
+.margder-14 {
+  margin-right: 14em; }
+
+.margder-15 {
+  margin-right: 15em; }
+
+.margtop-1 {
+  margin-top: 1em; }
+
+.margtop-2 {
+  margin-top: 2em; }
+
+.margtop-3 {
+  margin-top: 3em; }
+
+.margtop-4 {
+  margin-top: 4em; }
+
+.margtop-5 {
+  margin-top: 5em; }
+
+.margtop-6 {
+  margin-top: 6em; }
+
+.margtop-7 {
+  margin-top: 7em; }
+
+.margtop-8 {
+  margin-top: 8em; }
+
+.margtop-9 {
+  margin-top: 9em; }
+
+.margtop-10 {
+  margin-top: 10em; }
+
+.margtop-11 {
+  margin-top: 11em; }
+
+.margtop-12 {
+  margin-top: 12em; }
+
+.margtop-13 {
+  margin-top: 13em; }
+
+.margtop-14 {
+  margin-top: 14em; }
+
+.margtop-15 {
+  margin-top: 15em; }
+
+.margizq-1 {
+  margin-left: 1em; }
+
+.margizq-2 {
+  margin-left: 2em; }
+
+.margizq-3 {
+  margin-left: 3em; }
+
+.margizq-4 {
+  margin-left: 4em; }
+
+.margizq-5 {
+  margin-left: 5em; }
+
+.margizq-6 {
+  margin-left: 6em; }
+
+.margizq-7 {
+  margin-left: 7em; }
+
+.margizq-8 {
+  margin-left: 8em; }
+
+.margizq-9 {
+  margin-left: 9em; }
+
+.margizq-10 {
+  margin-left: 10em; }
+
+.margizq-11 {
+  margin-left: 11em; }
+
+.margizq-12 {
+  margin-left: 12em; }
+
+.margizq-13 {
+  margin-left: 13em; }
+
+.margizq-14 {
+  margin-left: 14em; }
+
+.margizq-15 {
+  margin-left: 15em; }
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: black; }
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color: #00a1a6;
+  text-shadow: 0px 10px 10px black;
+  animation: backInLeft;
+  animation-duration: 0.6s; }
+
+.footer {
+  display: flex;
+  justify-content: center; }
+
+.hr-hr {
+  width: 50%;
+  background-color: #00a1a6; }
+
+.text-cat {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  border: 10px #00a1a6 solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #00a1a6;
+  color: white;
+  animation: heartBeat;
+  animation-duration: 0.6s; }
+
+.icn-sep:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s;
+  color: white; }

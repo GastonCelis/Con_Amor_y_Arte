@@ -1,0 +1,11 @@
+@for $i from 1 through 15 {
+    .margder-#{$i}{margin-right: 1em * $i;}
+}
+
+@for $i from 1 through 15 {
+    .margtop-#{$i}{margin-top: 1em * $i;}
+}
+
+@for $i from 1 through 15 {
+    .margizq-#{$i}{margin-left: 1em * $i;}
+}

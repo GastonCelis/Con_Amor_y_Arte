@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.hr-hr {
+    width: 50%;
+    background-color: rgb(0, 161, 166);
+}
+
+.text-cat {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    border: 10px rgb(0, 161, 166) solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(0, 161, 166);
+    color: white;
+    animation: heartBeat;
+    animation-duration: 0.6s;
+}

@@ -1,0 +1,30 @@
+.fondo {
+    background-image: url(../../multimedia/imagenes/comboflorescelestes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+}
+
+.fondo1 {
+    background-image: url(../multimedia/imagenes/segundofondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondoprincipal {
+    background-color: #00A1A6;
+}
+
+.fondofooter {
+    background-image: linear-gradient(to top, #00a1a6, #67b6cc, #a8cbe4, #dbe3f3, #ffffff);
+    background-size: cover;
+}
+
+.fondomate {
+    background-image: url(../multimedia/imagenes/fondomateamarillo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 360px;
+}
+
